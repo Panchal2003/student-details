@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    font-family: arial;
+    border: border-box;
+}
+body{
+    background-color: cadetblue;
+}
+.navbar{
+    height: 150px;
+    width: 250px;
+}
+header{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+    background-image: url("skp.png");
+    height: 150px;
+    width: 250px;
+    background-size: cover;
+    
+}
+.box{
+    justify-content: center;
+    display: flex; 
+} 
+.term a{
+    color: rgb(25, 0, 255);
+}
+.term a:hover{
+    color: white;
+}
+.box1{
+    height: 450px;
+    width: 350px;
+    border: 4px solid black;
+    border-radius: 10px;
+    border-color: rgb(0, 0, 0);
+    backdrop-filter: blur(10px);    
+}
+a{
+    color: darkred;
+}
+h3{
+    margin-top: 25px;
+    margin-left: 25px;
+}
+p{
+    margin-top: 25px;
+    margin-left: 25px;
+
+}
+.fill{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin-left: 25px;
+    height: 20px;
+    margin-top:10px;
+    border-radius: 5px;
+    border: 2px solid black;
+    background-color: transparent;
+}
+.fill:hover{
+    border:1px solid rgb(47, 0, 255);
+    
+}
+.id2 a{
+    color: darkred;
+    margin-left:100px;
+    text-decoration: none;
+   
+}
+a:hover{
+    color:orangered;
+}
+.submit{
+    cursor: pointer;
+}
+.id2{
+    display:flex;
+    align-items:flex-start
+    justify-content:space-evenly;
+}
+.submit{
+    margin-top: 20px;
+    background-color: rgb(0, 119, 255);
+    width: 85%;
+    height: 30px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+    border: none;
+}
+.id3{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+
+}
+.id4{
+    margin-left: 20px;
+}
+.choice{
+    display: inline;
+    margin-top: 25px;
+    margin-left: 25px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+a{
+    text-decoration: none;
+}
+select{
+    width: 5%;
+    border: none;
+    border-spacing:none ;
+    background-color: transparent;
+}
+h5{
+    margin-top: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.create{
+    margin-top: 10px;
+    background-color: rgb(0, 119, 255);
+    width: 85%;
+    height: 30px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+.last{
+    text-align: center;
+    justify-content: center;
+}
+.foot{
+    background-color: rgb(31, 107, 248);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.foot a{
+    color:yellow;
+    margin-left: 20px;
+    justify-content: space-evenly;
+}
+.foot1 a:hover{
+    color: white;
+}
+.foot1{
+    margin-top: 30px;
+    justify-content: center;
+}
+.foot1 pre{
+    margin-bottom: 10px;
+}
